@@ -13,6 +13,7 @@ public class Main {
         userMap.put("岡田", "33歳。既婚者で子供が２人。だけど離婚寸前");
         userMap.put("佐伯", "45歳。バツイチ子持ちのシングルファザー。だけど再婚の意欲があり。");
         userMap.put("西川", "60歳。奥様と30年経ってもラブラブ。だけど刺激を求めている");
+        userMap.put("佐藤","100歳。最後に女性と会話がしたい");
 
         for (String key : userMap.keySet()) {
             System.out.println(key + "さんは" + userMap.get(key));
